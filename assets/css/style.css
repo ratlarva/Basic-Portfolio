@@ -33,18 +33,23 @@
 }
 	#middle{
 		height:800px;
-		background-image: url("assets/images/ep_naturalwhite.png");
+		background-image: url("../images/ep_naturalwhite.png");
 		border-color: #4aaaa5;
-		border:solid;
+
 	}
 	#contentBox{
 		border:solid;
 		border-color: #4aaaa5;
+		background-color: white;
 		padding: 20px;
 		margin-top: 40px;
 		margin-left: 40px;
 		float:left;
 	}
+	#contentBox>img {
+		width: 300px;
+	}
+
 	h2{
 		font-size:28pt;
 		color: #4aaaa5;
@@ -55,11 +60,12 @@
 		color: #4aaaa5;
 		padding: 10px;
 	}
-	.profImg{
+	#profImg{
 		width:50%;
 	}
 	#connectBox{
 		float:left;
+		background-color: white;
 		padding: 40px;
 		border:solid;
 		border-color: #4aaaa5;
